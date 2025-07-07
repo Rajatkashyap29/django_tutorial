@@ -1,0 +1,17 @@
+✅ Initialize Git
+git Init
+
+git config --global user.email "mr.rajat.29@gmail.com"
+git config --global user.name "Rajatkashyap29" 
+git branch -M main
+
+✅ Add the file and make your first commit
+git add . 
+To commit : git commit -m "Initial commit by rajat"  
+
+✅ Connect to your GitHub repo
+git remote add origin https://github.com/yourusername/django_tutorial.git
+
+
+✅  Push your code to GitHub
+To push code : git push -u origin main
