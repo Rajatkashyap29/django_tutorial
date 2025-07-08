@@ -1,0 +1,28 @@
+1> what is virtual env
+    ans->  Virtual environment ek aisa isolated (अलग) environment hota hai jisme Python project ka apna alag setup hota hai – matlab alag packages, libraries.
+    # Kyu use karte hain?
+
+    (*)Har project ka apna alag package ho. 
+    (*)Dusre project ke sath conflict na ho.
+
+2> wHAT IS DJANGO-ADMIN START PROJECT COMMAND
+    ans->Yeh command ek naya Django project create karta hai
+
+3> what is manage.py in django
+ans->manage.py ek Python script hota hai jo Django project ko manage karne ke liye use hota hai.
+
+Kya-kya kar sakte ho:
+    Server run kar sakte ho: python manage.py runserver
+    App create karna
+    Migrations, superuser banana, shell open karna, etc.
+
+ Yeh basically django-admin ka shortcut hota hai with project-specific settings.
+
+
+4> what is urls file in django
+ans->urls.py file me define karte ho kaunsa URL kis view function ko call karega.
+
+
+
+5> what is create-app in django
+ans->Django me ek project ke andar multiple apps ho sakte hain. Har app ek functionality ko represent karta hai – jaise login system, blog, etc.
