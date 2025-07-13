@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    chai page
+{% endblock %}
+
+{% block content %}
+  <h1>hello buddy here you can order all type of chai </h1>
+<div class="grid grid-cols-3 gap-4 m-4">
+
+
+  {% for chai in chais %}
+<div class="chai-item">
+  <img src="{{chai.image.url}}" alt="">
+</div>
+
+
+
+{% endfor %}
+{% endblock %}
+</div>
